@@ -55,6 +55,7 @@
     cmp-path = {enable = true;}; # file system paths
     cmp_luasnip = {enable = true;}; # snippets
     cmp-cmdline = {enable = false;}; # autocomplete for cmdline
+    cmp-conventionalcommits = {enable = true;};
   };
   extraConfigLua = ''
           luasnip = require("luasnip")
@@ -94,11 +95,17 @@
            { name = 'buffer' }
          }
        })
+       cmp.setup.buffer {
+          sources = cmp.config.sources(
+            {{ name = 'conventionalcommits' }},
+            {{ name = 'buffer' }}
+          ),
+       }
 
       -- Set configuration for specific filetype.
        cmp.setup.filetype('gitcommit', {
          sources = cmp.config.sources({
-           { name = 'cmp_git' }, -- You can specify the `cmp_git` source if you were installed it.
+           { name = 'git' }, -- You can specify the `cmp_git` source if you were installed it.
          }, {
            { name = 'buffer' },
          })
