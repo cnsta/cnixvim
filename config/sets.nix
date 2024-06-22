@@ -2,7 +2,7 @@
   config = {
     opts = {
       # Enable relative line numbers
-      number = false;
+      number = true;
       relativenumber = false;
 
       # Set tabs to 2 spaces

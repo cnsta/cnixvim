@@ -41,8 +41,8 @@
     #./plug/ui/alpha.nix
     ./plug/ui/btw.nix
     ./plug/ui/bufferline.nix
-    ./plug/ui/indent-blankline.nix
-    ./plug/ui/noice.nix
+    #./plug/ui/indent-blankline.nix
+    #./plug/ui/noice.nix
     ./plug/ui/nvim-notify.nix
     #./plug/ui/precognition.nix
     ./plug/ui/telescope.nix
