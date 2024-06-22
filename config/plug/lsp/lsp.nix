@@ -6,7 +6,16 @@
       servers = {
         eslint = {enable = true;};
         html = {enable = true;};
-        lua_ls = {enable = true;};
+        lua-ls = {
+          enable = true;
+          settings = {
+            Lua = {
+              completion = {
+                callSnippet = "Replace";
+              };
+            };
+          };
+          };
         nixd = {enable = true;};
         marksman = {enable = true;};
         pyright = {enable = true;};
