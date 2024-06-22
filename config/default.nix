@@ -4,13 +4,12 @@
   ...
 }: {
   imports = [
-    ./gruvbox-material.nix
     ./keys.nix
     ./sets.nix
     ./highlight.nix
 
     ./plug/colorscheme/biscuit.nix
-    #    ./plug/colorscheme/colorscheme.nix
+    ./plug/colorscheme/colorscheme.nix
 
     ./plug/completion/cmp.nix
     ./plug/completion/copilot-cmp.nix
