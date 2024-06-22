@@ -3,12 +3,12 @@
 in {
   colorschemes = {
     base16 = {
-      enable = false;
+      enable = true;
       setUpBar = false;
       colorscheme = import ../../colors/${config.theme}.nix {};
     };
     kanagawa = {
-      enable = true;
+      enable = false;
     };
     gruvbox = {
       enable = false;
