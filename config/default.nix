@@ -26,7 +26,7 @@
     ./plug/lsp/hlchunk.nix
     ./plug/lsp/lsp.nix
     ./plug/lsp/lspsaga.nix
-    ./plug/lsp/none-ls.nix
+    # ./plug/lsp/none-ls.nix
     ./plug/lsp/trouble.nix
 
     ./plug/snippets/luasnip.nix
