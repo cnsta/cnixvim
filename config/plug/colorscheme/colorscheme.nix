@@ -7,7 +7,7 @@ in {
       setUpBar = false;
       colorscheme = import ../../colors/${config.theme}.nix {};
     };
-    kanagawa = {
+    kanagawa-dragon = {
       enable = true;
     };
     gruvbox = {
