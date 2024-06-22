@@ -7,8 +7,15 @@ in {
       setUpBar = false;
       colorscheme = import ../../colors/${config.theme}.nix {};
     };
-    gruvbox = {
+    kanagawa = {
       enable = true;
+      settings = {
+        transparent = true;
+        theme = "dragon";
+      };
+    };
+    gruvbox = {
+      enable = false;
       settings = {
         transparent_mode = true;
       };

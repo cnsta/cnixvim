@@ -64,7 +64,7 @@
   ];
   options = {
     theme = lib.mkOption {
-      default = "gruvbox";
+      default = "everforest";
       type = lib.types.enum ["paradise" "decay" "mountain" "tokyonight" "everforest" "everblush" "jellybeans" "aquarium" "gruvbox"];
     };
     assistant = lib.mkOption {
@@ -74,7 +74,7 @@
   };
   config = {
     # The base16 theme to use, if you want to use another theme, change it in colorscheme.nix
-    theme = "gruvbox";
+    theme = "kanagawa";
     extraConfigLua = ''
       _G.theme = "${config.theme}"
     '';
