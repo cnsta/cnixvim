@@ -3,12 +3,12 @@
 in {
   colorschemes = {
     base16 = {
-      enable = true;
+      enable = false;
       setUpBar = false;
       colorscheme = import ../../colors/${config.theme}.nix {};
     };
     gruvbox = {
-      enable = false;
+      enable = true;
       settings = {
         transparent_mode = true;
       };
