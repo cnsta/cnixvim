@@ -1,4 +1,8 @@
-{config, ...}: let
+{
+  config,
+  pkgs,
+  ...
+}: let
   lua = x: {__raw = x;};
 in {
   colorschemes = {
