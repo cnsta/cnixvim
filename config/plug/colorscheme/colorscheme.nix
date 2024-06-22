@@ -1,4 +1,8 @@
-{config, ...}: let
+{
+  config,
+  pkgs,
+  ...
+}: let
   lua = x: {__raw = x;};
 in {
   colorschemes = {
@@ -9,6 +13,7 @@ in {
     };
     gruvbox = {
       enable = true;
+      extraPlugins = [pkgs.vimPlugins.gruvbox-material-nvim];
       settings = {
         transparent_mode = true;
       };
