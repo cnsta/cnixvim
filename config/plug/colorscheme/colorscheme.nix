@@ -11,7 +11,7 @@ in {
       enable = true;
       settings = {
         transparent = true;
-        theme = "dragon";
+        style = "dragon";
       };
     };
     gruvbox = {
