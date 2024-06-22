@@ -4,6 +4,7 @@
   ...
 }: {
   imports = [
+    ./gruvbox-material.nix
     ./keys.nix
     ./sets.nix
     ./highlight.nix
