@@ -38,8 +38,8 @@
     ./plug/treesitter/treesitter-textobjects.nix
     ./plug/treesitter/treesitter.nix
 
-    #./plug/ui/alpha.nix
-    ./plug/ui/btw.nix
+    ./plug/ui/alpha.nix
+    #./plug/ui/btw.nix
     ./plug/ui/bufferline.nix
     #./plug/ui/indent-blankline.nix
     #./plug/ui/noice.nix
