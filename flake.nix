@@ -8,10 +8,6 @@
       url = "github:nix-community/nixvim";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    gruvbox-material = {
-      url = "github:sainnhe/gruvbox-material";
-      flake = false;
-    };
     pre-commit-hooks = {
       url = "github:cachix/pre-commit-hooks.nix";
       inputs.nixpkgs.follows = "nixpkgs";

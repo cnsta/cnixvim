@@ -7,7 +7,7 @@ in {
       setUpBar = false;
       colorscheme = import ../../colors/${config.theme}.nix {};
     };
-    gruvbox-material = {
+    gruvbox = {
       enable = true;
       settings = {
         transparent_mode = true;

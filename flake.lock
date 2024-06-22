@@ -195,22 +195,6 @@
         "type": "github"
       }
     },
-    "gruvbox-material": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1718997242,
-        "narHash": "sha256-fZInzV3cTAu94/j7hkeWxQhJbtFeuvAjeWrSG0UVv1A=",
-        "owner": "sainnhe",
-        "repo": "gruvbox-material",
-        "rev": "607fac66a5a4418dd9fe1c8fe7d1368099f5bf96",
-        "type": "github"
-      },
-      "original": {
-        "owner": "sainnhe",
-        "repo": "gruvbox-material",
-        "type": "github"
-      }
-    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -350,7 +334,6 @@
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
-        "gruvbox-material": "gruvbox-material",
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
         "pre-commit-hooks": "pre-commit-hooks"
