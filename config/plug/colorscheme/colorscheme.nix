@@ -9,6 +9,7 @@ in {
     };
     gruvbox-material = {
       enable = true;
+      extraPlugins = [pkgs.vimPlugins.gruvbox-material-nvim];
       settings = {
         transparent_mode = true;
       };
