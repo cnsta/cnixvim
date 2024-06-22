@@ -9,10 +9,6 @@ in {
     };
     kanagawa = {
       enable = true;
-      settings = {
-        transparent = true;
-        style = "dragon";
-      };
     };
     gruvbox = {
       enable = false;
