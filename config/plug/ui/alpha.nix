@@ -86,7 +86,6 @@
       }
       {
         opts = {
-          hl = "GruvboxBlue";
           position = "center";
         };
         type = "text";
